@@ -22,7 +22,8 @@
 <body>
     <header>
         <div class="container">
-            <div class="logo_white pull-left">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand"></a>
                 <img src="img/images/logo_white_02b_02.png">
             </div>
             <nav class="navbar">
@@ -107,20 +108,51 @@
                 <div></div>
                 <button>View more</button>
             </section>
-            <section id="contact">
-                <div>
+            <!--Contact-->
+            <section id="contact" class="container-fluid">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h1>Contact</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>For new projects, ideas, business or anything you would like to discuss, contact with me!</p>
                 </div>
-                <form></form>
-                <div></div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                    <form>
+                        <label for="name"></label>
+                        <input class="form-control" type="name" id="name">
+
+                        <label for="email"></label>
+                        <input class="form-control" type="email" id="email" placeholder="Your email">
+
+                        <label for="number"></label>
+                        <input class="form-control" type="number" id="number" placeholder="Your phone number">
+
+                        <label for="message"></label>
+                        <textarea class="form-control" type="text" placeholder="Your message"></textarea>
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                    <span>address</span>
+                    <span>123 City name, Street, City, Country</span>
+                    <span>email</span>
+                    <span>cahee@domain.com</span>
+                    <span>phone</span>
+                    <span>+012 345 678</span>
+                </div>
             </section>
         </main>
 
         <footer>
-            <div class="copyright"></div>
-            <div class="logo-black"></div>
-            <div class="made"></div>
+            <div class="copyright">
+                <span>C 2015 Company. All rights reserved.</span>
+            </div>
+            <div class="logo-black">
+                <div></div>
+            </div>
+            <div class="made">
+                <p>Made with
+                    <span>love</span> by
+                    <a href="#">Auskteez</a>
+                </p>
+            </div>
         </footer>
 
 
